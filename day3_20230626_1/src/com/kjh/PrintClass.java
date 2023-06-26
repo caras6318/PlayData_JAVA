@@ -8,12 +8,17 @@ public class PrintClass {
 	public PrintClass() { // 기본생성
 		// TODO Auto-generated constructor stub
 	} 
-	public void prn(int[] agesz) { // 사용자 정의 메소드
+	public static void prn(int[] ages) { // 사용자 정의 메소드
 		
 		for(int i=0; i < ages.length;i++) {
 			System.out.println(ages[i]);
 			
 		}
+		
+	}
+	public static void prg(int grades) { // 사용자 정의 메소드
+		
+		System.out.println("성적 합은 : " + grades);
 		
 	}
 

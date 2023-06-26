@@ -8,7 +8,7 @@ public class MethodClass {
 	} 
 	//MainClass 의 main()내에서 호출 
 	//main()에서는 실제 데이터들을 보유한 members 배열을 전달 
-	public int[] age(MemberClass[] members){
+	public static int[] age(MemberClass[] members){
 		int[] ages = new int[members.length];
 		for (int i = 0; i < members.length;i++) {
 			String temp = members[i].firstNo.substring(0,2);
@@ -22,5 +22,12 @@ public class MethodClass {
 			
 		}
 		return ages;
+	}
+	public static int grade(StudentClass[] students) {
+		int grades = 0;
+		for (int i = 0; i < students.length;i++) {
+			grades += students[i].Grade;
+		}
+		return grades;
 	}
 }

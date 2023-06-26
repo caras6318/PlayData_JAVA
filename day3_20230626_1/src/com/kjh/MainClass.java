@@ -10,7 +10,8 @@ public class MainClass {
 		//MethodClass mc = new MethodClass();
 		
 		int[] ages = MethodClass.age(dc.members);
-		
-		
+		PrintClass.prn(ages);
+		int grades = MethodClass.grade(dc.students);
+		PrintClass.prg(grades);
 	}
 }
