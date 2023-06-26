@@ -1,0 +1,15 @@
+package com.kjh;
+
+public class EMPClass {//클래스 선언 
+	String name;			//이름
+	String joinDate;		//가입일
+	String lastVisitDate;	//최종방문일
+	String gender;			//성별
+	String age;				//연령대
+	int numVisit;			//방문횟수
+//"임재,20190509,20190510,8,남,30대후반" 데이터가들어오게 될꺼임
+	public EMPClass(String str) {//생성자 선언 
+		String[] split = str.split(",");
+	}
+
+}

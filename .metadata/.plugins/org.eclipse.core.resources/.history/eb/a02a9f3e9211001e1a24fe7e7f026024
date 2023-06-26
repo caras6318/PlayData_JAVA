@@ -1,0 +1,49 @@
+package com.kjh;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+//		String test ="임재,20190509,20190510,8,남,30대후반";
+//		String[] split = test.split(",");
+//		
+//		String date1 = split[1];
+//		System.out.println(date1);
+//		String year = date1.substring(0,4);
+//		System.out.println(year);
+//--------------------------------------------------
+//		new EMPClass();
+//		EMPClass emp1 = new EMPClass();
+//		emp1.name = "임재";
+//		emp1.joinDate = "20190509";
+//		emp1.lastVisitDate = "20190510";
+//		emp1.numVisit = Integer.parseInt("8");
+//		emp1.age = "30대후반";
+//		
+//		EMPClass emp2 = new EMPClass();
+//		emp2.name = "성";
+//		emp1.joinDate = "20190509";
+//		emp1.lastVisitDate = "20190510";
+//		emp1.numVisit = Integer.parseInt("30");
+//		emp1.age = "30대중반";
+//		
+//		System.out.println(emp1.name);
+//		System.out.println(emp2.name);
+// 
+//	데이터가 많아질수록 위와같은 방법은 비효율적
+//-----------------------------------------------------
+//		EMPClass emp1 = new EMPClass("임재,20190509,20190510,8,남,30대후반");
+//		EMPClass emp2 = new EMPClass("성열,20190509,20190510,1,남,30대중반");
+		String[] member=new String[98];
+
+		member[0]="임재,20190509,20190510,8,남,30대후반";
+		member[1]="성열,20190509,20190510,1,남,30대중반";
+		member[2]="천재,20190509,20190510,3,남,30대초반";
+		
+		EMPClass[] emp = new EMPClass[member.length];
+		
+		for(int i = 0; i < member.length;i++) {
+			emp[i] = new EMPClass(member[i]);
+		}
+	}
+
+}

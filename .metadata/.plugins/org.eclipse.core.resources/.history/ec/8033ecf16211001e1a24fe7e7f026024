@@ -1,0 +1,10 @@
+package com.kjh;
+
+public class EMPMainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

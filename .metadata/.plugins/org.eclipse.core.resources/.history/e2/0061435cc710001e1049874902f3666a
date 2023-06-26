@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.caras;
+
+/**
+ * 
+ */
+public class VarClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//생각보다 윈도우 환경이랑 너무 똑같아서 조금 신기하네 
+
+	}
+
+}

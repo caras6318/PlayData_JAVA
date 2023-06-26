@@ -1,0 +1,13 @@
+package com.kjh;
+
+public class MemberClass {
+	int a = 100;
+
+	public MemberClass() {
+		System.out.println("MemberClass 생성자 호출");
+	}
+	public void test() {
+		System.out.println("test() 메소드 호출");
+	}
+
+}

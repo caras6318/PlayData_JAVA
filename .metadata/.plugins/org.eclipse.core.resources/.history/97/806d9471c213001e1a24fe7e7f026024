@@ -1,0 +1,10 @@
+package com.kjh;
+
+public class MemberClass {
+	int a = 100;
+
+	public MemberClass() {
+		System.out.println("");
+	}
+
+}

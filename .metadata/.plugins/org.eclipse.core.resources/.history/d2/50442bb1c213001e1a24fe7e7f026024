@@ -1,0 +1,21 @@
+package com.kjh;
+
+public class MainClass {
+
+	public MainClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		
+		MemberClass m1 = new MemberClass();
+		
+		Object m2 = new MemberClass();
+		
+		MemberClass m3 = (MemberClass) m2; //조상타입은자손타입에 들어갈수 없다.
+		m3.
+		// TODO Auto-generated method stub
+
+	}
+
+}

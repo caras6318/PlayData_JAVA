@@ -1,0 +1,10 @@
+package com.kjh;
+// 한 회원의 정보를 하나로 묶어주는 역할
+// Model역할
+public class MemberClass {
+	
+	public MemberClass() {
+		System.out.println("생성자 호출");
+	}
+
+}

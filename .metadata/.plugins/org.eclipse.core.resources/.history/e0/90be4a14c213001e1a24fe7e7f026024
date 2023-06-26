@@ -1,0 +1,18 @@
+package com.kjh;
+
+public class MainClass {
+
+	public MainClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		MemberClass m1 = new MemberClass();
+		Object m2 = new MemberClass();
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

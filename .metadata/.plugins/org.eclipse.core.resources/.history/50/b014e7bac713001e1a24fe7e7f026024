@@ -1,0 +1,9 @@
+package com.kjh;
+
+public class DataClass {
+
+	public DataClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

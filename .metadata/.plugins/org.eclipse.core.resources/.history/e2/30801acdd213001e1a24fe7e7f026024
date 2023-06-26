@@ -1,0 +1,25 @@
+package com.kjh;
+
+//DataClass : 모든 회원의 정보를 보유하는 역할
+//나중에 sql로 변경할거임
+
+public class DataClass {
+	
+	MemberClass[] members = new MemberClass[6];
+	
+	public DataClass() {	
+	
+		
+	}
+	public void init() {	
+		
+		members[0] = new MemberClass("92001", "590327-1839240", "이태규", 920, "교수", "1997");
+		members[1] = new MemberClass("92001", "590327-1839240", "이태규", 920, "교수", "1997");
+		members[2] = new MemberClass("92001", "590327-1839240", "이태규", 920, "교수", "1997");
+		members[3] = new MemberClass("92001", "590327-1839240", "이태규", 920, "교수", "1997");
+		members[4] = new MemberClass("92001", "590327-1839240", "이태규", 920, "교수", "1997");
+		members[5] = new MemberClass("92001", "590327-1839240", "이태규", 920, "교수", "1997");
+		
+	}
+
+}

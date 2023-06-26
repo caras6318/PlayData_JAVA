@@ -1,0 +1,14 @@
+String name	이름
+String joinDate	가입일
+String lastVisitDate 최종방문일
+int numVisit 방문횟수
+String gender 성별 
+int age 연령대
+
+기본 데이터 타입
+정수 : byte(1) short(2) int(4) long(8)
+실수 : float(4) double(8)
+논리 : boolean
+문자(유니코드):char(2)
+
+참조(클래스)데이터 타입
