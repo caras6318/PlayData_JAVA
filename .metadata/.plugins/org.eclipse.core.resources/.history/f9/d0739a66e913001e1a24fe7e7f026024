@@ -10,7 +10,10 @@ public class MainClass {
 		//MethodClass mc = new MethodClass();
 		
 		int[] ages = MethodClass.age(dc.members);
-		
+		for(int i=0; i < ages.length;i++) {
+			System.out.println(ages[i]);
+			
+		}
 		
 	}
 }
