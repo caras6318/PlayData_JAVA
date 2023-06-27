@@ -1,7 +1,7 @@
 package com.kjh;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class NewsMainClass {
 
@@ -34,13 +34,13 @@ public class NewsMainClass {
 //		
 		//콘솔로부터 입력받기
 		
-		System.out.print("검색할 신문사 입력 : ");
-		Scanner scan = new Scanner(System.in);
-		String press = scan.next();
+		//System.out.print("검색할 신문사 입력 : ");
+		//Scanner scan = new Scanner(System.in);
+		//String press = scan.next();
 		
-		ArrayList<String> url = NewsMethodClass.srcNewsURL(ndc.news, press);
+//		//ArrayList<String> url = NewsMethodClass.srcNewsURL(ndc.news, press);
 		ArrayList<String> rmvc = NewsMethodClass.rmv(ndc.news);
-		NewsPrintClass.printURL(press, url);
+		//NewsPrintClass.printURL(press, url);
 		NewsPrintClass.printrmv(rmvc);
 		
 

@@ -14,7 +14,7 @@ public class NewsPrintClass {
 	}
 	public static void printrmv(ArrayList<String> rmvc) {
 		for(int i=0; i < rmvc.size(); i++) {
-			System.out.println("중복제거 : " + rmvc.get(i));
+			System.out.println(rmvc.get(i));
 		}
 	}
 }
