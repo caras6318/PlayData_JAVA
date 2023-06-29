@@ -12,7 +12,10 @@ public class WordCntMainClass {
 		
 		int[] cntarr = new int[srcword.bs.size()];
 		int cnt = 0;
+		
+		
 		for(int i = 0; i < srcword.bs.size(); i++ ) {
+			
 			cnt = 0;
 			System.out.print(srcword.bs.get(i).word2 + "의 갯수는 : ");
 	
