@@ -6,7 +6,11 @@ public class NaverMainClass {
 		//(1)
 		String uri = "/Users/caras/Desktop/code/Backend/PlayData/WorkJava_ec/day5_20230628_1/src/com/kjh/naver_news_stand_data.txt";
 		NaverDataClass naver = new NaverDataClass(uri);
+		
+		
 		System.out.println(naver.news.size());
+		
+		
 		for(int i = 0; i < naver.news.size(); i++) {
 			System.out.println(naver.news.get(i).image);
 			System.out.println(naver.news.get(i).url);

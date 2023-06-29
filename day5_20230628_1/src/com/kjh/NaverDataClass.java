@@ -29,8 +29,10 @@ public class NaverDataClass {
 			
 			String temp = null;
 			String[] split = null;
+			
 			while((temp = br.readLine())!= null) {
-				split = temp.split("\", \""); 
+				
+				split = temp.split("\", \"");
 				news.add(new NaverNewsClass(split[1], split[2]));		
 			}
 			
