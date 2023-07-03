@@ -1,9 +1,0 @@
-package com.kjh;
-
-public class EMPClass {
-
-	public EMPClass() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

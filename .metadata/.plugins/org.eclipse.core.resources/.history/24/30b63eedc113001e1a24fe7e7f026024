@@ -1,9 +1,0 @@
-package com.kjh;
-
-public class MemberClass {
-
-	public MemberClass() {
-		System.out.println("")
-	}
-
-}
